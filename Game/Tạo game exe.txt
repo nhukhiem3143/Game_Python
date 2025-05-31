@@ -1,0 +1,6 @@
+pyinstaller --onefile --noconsole --add-data "alien_1.png;." --add-data "alien_2.png;." --add-data "bullet_item.png;." --add-data "hp_item.png;." --add-data "ship.png;." --add-data "speed_item.png;." --add-data "boom.wav;." --add-data "shoot.wav;." --add-data "intro.mp3;." --add-data "background.mp3;." --name Astrocrash gameAstrocrash.py
+
+
+
+
+pyinstaller --onefile --noconsole --add-data "alien_1.png;." --add-data "alien_2.png;." --add-data "bullet_item.png;." --add-data "hp_item.png;." --add-data "ship.png;." --add-data "speed_item.png;." --add-data "boom.wav;." --add-data "shoot.wav;." --add-data "intro.mp3;." --add-data "background.mp3;." --name Astrocrash --icon anh.ico gameAstrocrash.py
